@@ -475,6 +475,7 @@ input#show_menu:checked ~ .nav {
 }
 
 .header {
+  max-height: 16px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -484,6 +485,7 @@ input#show_menu:checked ~ .nav {
 }
 
 .logo {
+  padding: 0;
   display: block;
   z-index: 2;
 }
@@ -496,6 +498,48 @@ input#show_menu:checked ~ .nav {
   .logo img {
     width: 250px;
   }
+}
+
+.offer__title {
+  font-size: 24px;
+  margin: 0 0 11px;
+}
+.offer__desc {
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 0 0 10px;
+}
+
+.slider__arrow {
+  display: none;
+}
+.slider__slide {
+  display: none;
+}
+input:checked + .slider__slide {
+  display: block;
+}
+.slider__content {
+  margin-bottom: 36px;
+}
+.slider__dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.slider__toggle {
+  display: block;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #e2e2e2;
+  cursor: pointer;
+  font-size: 0;
+  overflow: hidden;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -3,3 +3,42 @@
 @import "global";
 @import "nav";
 @import "header";
+@import "offer";
+@import "slider";
+
+// .faq {
+//     margin-bottom: 20px;
+//     &__toggler {
+//         display: flex;
+//         align-items: center;
+//         gap: 16px;
+//     }
+//     &__marker {
+//         display: block;
+//         width: 20px;
+//         min-width: 20px;
+//         height: 20px;
+//         background: #000;
+//     }
+//     &__title {
+//         font-weight: 700;
+//         font-size: 24px;
+//         color: #000;
+//     }
+//     &__content {
+//         padding-left: 36px;
+//         margin-top: 20px;
+//     }
+//     &[open] {
+//         margin-bottom: 40px;
+//         .faq {
+//             &__marker {
+//             rotate: 45deg;
+//             background: #205E5E;
+//         }
+//         &__title {
+//             color: #205E5E;
+//         }
+//     }
+// }
+// }
